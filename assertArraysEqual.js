@@ -1,18 +1,20 @@
+
 const eqArrays = function(array1, array2) {
   let result;
   if (array1.length !== array2.length) {
     result = false;
     return result;
-  }
-  for (let num1 of array1) {
-    if (array1[num1] !== array2[num1]) {
-      result = false;
-      return result;
-    } else {
-      result = true;
+  } else {
+    for (let i = 0; i < array1.length; i++) {
+      if (array1[i] !== array2[i]) {
+        result = false;
+        return result;
+      } else {
+        result = true;
+      }
     }
+    return result;
   }
-  return result;
 };
 
 const assertArraysEqual = function(array1, array2) {
@@ -26,4 +28,4 @@ const assertArraysEqual = function(array1, array2) {
   }
 };
 
-assertArraysEqual(['lighthouse'], ['hello', 'world', 'lighthouse']); // => should PASS
+assertArraysEqual([3, 'world', 'lighthouse'], ['hello', 'world', 'lighthouse']); // => should PASS
