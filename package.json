@@ -1,0 +1,26 @@
+{
+  "name": "@melonaster/lotide",
+  "version": "1.0.0",
+  "description": "Lotide for LightHouse Labs made by Sang Lee",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melonaster3/lotide.git"
+  },
+  "author": "Sang Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melonaster3/lotide/issues"
+  },
+  "homepage": "https://github.com/melonaster3/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
