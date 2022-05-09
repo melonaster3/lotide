@@ -23,7 +23,7 @@ const assertArraysEqual = function(array1, array2) {
     console.log(`Yes! ${array1} and ${array2} are equal!`);
     return result;
   } else {
-    console.log(`Unfortunately, ${array1} and ${array2} are not equal!`);
+    console.log(`Unfortunately, ${array1} and ${array2} are nogit t equal!`);
     return result;
   }
 };
